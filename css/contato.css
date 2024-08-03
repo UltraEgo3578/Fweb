@@ -1,0 +1,49 @@
+html, body{
+    background-image:url(../img/pixeldemp.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    background-image: url(../img/images.png);
+    text-align: center;
+    color: aliceblue;
+    border: 10px solid grey;
+    padding: 10px;
+}
+h2{
+    border-bottom: 2px solid gray;
+    margin-top: 30px;
+}
+p{
+    padding: 0 45px; text-indent: 15px;
+}
+figure{
+    text-align: center;
+    padding: 15px; margin: 30px;
+}
+
+#imagem_autor{
+    margin-left: auto;margin-right: auto;width: 550px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: 10px solid grey;
+}
+p::first-letter{
+    font-weight: bold;
+}
+h2+p{
+    text-indent: 0px;
+}
+p::first-line{
+    font-variant: small-caps;
+}
+video{
+    float: left;
+    width: 50%;
+    height: auto;
+}

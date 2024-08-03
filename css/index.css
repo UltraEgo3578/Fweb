@@ -1,0 +1,265 @@
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+#infinite {
+    height: 300px;
+    width: 600px
+}
+.destaque{
+    float: right;
+}
+header{
+    height: 20%;
+}
+main{
+    height: 65%;
+}
+.menu-opçoes ul{
+    font-size: 20px;
+}
+.menu-opçoes ul{
+    font-size: 20px;
+}
+.menu-opçoes a{
+    color: #003366;
+}
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.menu-opçoes{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 30px;
+}
+.menu-opçoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+#imglogo{
+    width: 10%;
+    height: 10%;
+}
+#imglupa{
+    width: 20px;
+    height: auto;
+}
+#imgExer1, #imgExer2{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+.busca, .menu-conteudo{
+    background-color: lightgray;
+    font-weight: bold;/*negrito*/
+    text-transform: uppercase; /*maiusculo*/
+    width: 600px;
+    margin-right: 10px;
+    float: left;
+}
+.busca h2, .busca form, .menu-conteudo h2{
+    margin: 10px;
+
+}
+.menu-conteudo li{
+    background-color: antiquewhite;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+
+}
+.menu-conteudo a{
+    color: darkgray;
+}
+.menu-conteudo{
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.busca{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.busca input{
+    vertical-align: middle;
+}
+.destaque{
+    margin-top: 10px;
+}
+.busca input[type=search]{
+    width: 170px;
+}
+.busca:hover{
+    background-color: grey;
+}
+.menu-conteudo:hover{
+    background-color: grey;
+}
+.menu-conteudo li ul{
+    display: none;
+}
+.menu-conteudo li:hover ul{
+    display: block;
+}
+.menu-conteudo ul ul li{
+    background-color: dimgray;
+}
+.menu-conteudo ul li a:after{
+    content: '>';
+}
+.menu-conteudo ul li a:before{
+    content: '<';
+}
+.painel{
+    width: 47%;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    box-shadow:  10px 10px 5px grey;
+    
+}
+.aula1{
+    float: left;
+    background: linear-gradient(darkgray, lightgray);
+}
+.aula2{
+    float: right;
+    background: linear-gradient(darkgray, lightgray);
+}
+.aula3{
+    float: left;
+    background: linear-gradient(darkgray, lightgray);
+}
+.aula4{
+    float: right;
+    background: linear-gradient(darkgray, lightgray);
+}
+.aula5{
+    float: left;
+    background: linear-gradient(darkgray, lightgray);
+}
+.aula7{
+    float: right;
+    background: linear-gradient(darkgray, lightgray);
+}
+.aula8{
+    float: left;
+    background: linear-gradient(darkgray, lightgray);
+}
+.aula9{
+    float: right;
+    background: linear-gradient(darkgray, lightgray);
+}
+.aula10{
+    float: left;
+    background: linear-gradient(darkgray, lightgray);
+}
+.aula11{
+    float: right;
+    background: linear-gradient(darkgray, lightgray);
+}
+.aula12{
+    float: left;
+    background: linear-gradient(darkgray, lightgray);
+}
+.aula13{
+    float: right;
+    background:linear-gradient(darkgray, lightgray);
+}
+.aula14{
+    float: left;
+    background:linear-gradient(darkgray, lightgray);
+}
+.aula15{
+    float: right;
+    background:linear-gradient(darkgray, lightgray);
+}
+.aula16{
+    float: left;
+    background:linear-gradient(darkgray, lightgray);
+}
+.aula17{
+    float: right;
+    background:linear-gradient(darkgray, lightgray);
+}
+.painel li{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2{
+    font-family: 20px;
+    font-size: 20px;
+    text-shadow: 10px 5px 5px rgba(255, 157, 26, 0.8) grey;
+}
+.painel a{
+    color: #003366;
+    font-size: 15px;
+    text-align: center;
+}
+
+#takaIcon{
+    width: 5%;
+    height: 5%;
+}
+.social a[href*=instagram]{
+    color: pink;
+}
+.social a[href*=github]{
+    color: darkblue;
+}
+.social{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+.social li a[href*=instagram]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/insta.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+.social li a[href*=github]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/git.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+.painel a[href*=aula]{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/archive.png);
+    background-size: contain;
+    text-indent: -9999px;
+    display: block;
+}
+footer{
+    clear: both;
+    height: 15%;
+}
+.social li{
+    float: left;
+    margin-bottom: auto;
+}
+.painel li a:hover{
+    box-shadow: 10px 10px 5px grey;
+    transition: 0.7s;/*tempo de transição da animação*/
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.2) rotate(-5deg);/*aumenta o tamanho do icon*/
+}
