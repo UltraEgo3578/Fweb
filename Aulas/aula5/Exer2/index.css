@@ -1,0 +1,15 @@
+.dpainel{
+    background-color: forestgreen;
+    width: 800px;
+    height: 600px;
+    position: absolute;/*define a posição do item*/
+}
+#img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 1px;/*define a quantidade de pixels no lado esquerdo da imagem*/
+    right: 0px;/*define a quantidade de pixels no lado direito da imagem*/
+    top: 0px;/*define a quantidade de pixels na parte de cima da imagem*/
+    bottom: 0px;/*define a quantidade de pixels na parte debaixo da imagem*/
+}

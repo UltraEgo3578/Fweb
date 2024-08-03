@@ -1,0 +1,32 @@
+[
+    {
+        "nome":"Bora Bill",
+        "idade":"40",
+        "cpf":"990.457.320-02",
+        "telefone":"51-994234190"
+    },
+    {
+        "nome":"Casca de Bala",
+        "idade":"24",
+        "cpf":"730.310.020-05",
+        "telefone":"51-996274109"
+    },
+    {
+        "nome":"Amostradinho",
+        "idade":"24",
+        "cpf":"004.780.900-50",
+        "telefone":"51-990375321"
+    },
+    {
+        "nome":"Caneta Azul",
+        "idade":"54",
+        "cpf":"310.666.003-69",
+        "telefone":"51-994025215"
+    },
+    {
+        "nome":"Receba",
+        "idade":"22",
+        "cpf":"228.550.040-55",
+        "telefone":"51-992415560"
+    }
+]

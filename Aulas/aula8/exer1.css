@@ -1,0 +1,15 @@
+.container a[href*=instagram]{
+    color: pink;
+}
+.container a[href*=github]{
+    color: darkblue;
+}
+a:hover{
+    background-color: aquamarine;
+}
+a:visited{
+    background-color: red;
+}
+a:active{
+    background-color: cadetblue;
+}

@@ -1,0 +1,84 @@
+
+.item1{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/lee2.png);
+    background-position: center;
+}
+.item2{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/images.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.item3{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/saitama.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item4{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/sonic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item5{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/joe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item6{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/goku.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item7{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/chronos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item8{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/kaito.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item9{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/itadori.png);
+    background-position: center;
+}
+.item10{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/mob.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item11{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/taka.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item12{
+    width: auto;
+    height: 300px;
+    background-image: url(../../../img/space.jpg);
+    background-position: center;
+}
+

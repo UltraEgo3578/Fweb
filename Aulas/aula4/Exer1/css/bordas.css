@@ -1,0 +1,26 @@
+div {
+    width: 150px;/*define a largura do item*/
+    height: 150px;/*define a altura do item*/
+    text-align: center;/*define a posição do texto em relação ao item <div>*/
+    margin: 10px;/*define a margem do item*/
+}
+#Ippo {
+    border-radius: 50%;/*define a circunferência da borda ao redor do item*/
+    background-color: crimson;
+}
+#Lee {
+    border-radius: 10%;
+    background-color: forestgreen;
+}
+#Yuji {
+    border-radius: 20%;
+    background-color: brown;
+}
+#Goku {
+    border-radius: 10% 50% 10% 50%/ 50% 10% 50% 10%;/*define a circunferência em cada um dos cantos da borda*/
+    background-color: darkorange;
+}
+#Sanji {
+    border-radius: 50% 10% 50% 10%/ 10% 50% 10% 50%;
+    background-color: gold;
+}   

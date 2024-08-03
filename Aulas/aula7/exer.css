@@ -1,0 +1,6 @@
+.container a[href*=instagram]{/*//seletor de atributo//procura a palavra declarada no link e faz a linkagem com o conteudo dentro do css*/
+    color: pink;
+}
+.container a[href*=github]{
+    color: darkblue;
+}
