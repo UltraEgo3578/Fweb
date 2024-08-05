@@ -25,6 +25,15 @@
     text-indent: -9999px;
     display: block;
 }
+.calculadora{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/calc.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
 h3{
     background-color: cadetblue;
     text-align: left;

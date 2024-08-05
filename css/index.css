@@ -2,6 +2,8 @@ html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100%;
     width: 100%;
+    background-image: url(../img/dr.jpg);
+    background-size: cover;
 }
 #infinite {
     height: 300px;
@@ -24,6 +26,8 @@ main{
 }
 .menu-opçoes a{
     color: #003366;
+    background-color: lightgray;
+    border-radius: 10px;
 }
 .container{
     width: 90%;

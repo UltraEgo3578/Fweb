@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/vegeta.avif);
+    background-image: url(../img/ippo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -8,6 +8,8 @@ body{
 }
 .menu-opçoes a{
     color: #003366;
+    background-color: lightgray;
+    border-radius: 10px;
 }
 .busca{
     float: left;
@@ -23,8 +25,6 @@ body{
     position: absolute;
     top: 0px;
     right: 0px;
-    background-color: lightgray;
-    border-radius: 10px;
 }
 .menu-opçoes ul li{
     display: inline;
