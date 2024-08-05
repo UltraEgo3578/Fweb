@@ -1,10 +1,25 @@
-body{
-
-}
 .carousel{
     width: 200px;
     height: 200px;
     background-image: url(../img/Carrossel.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+.pokedex{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/pokeball.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+.scream{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/O\ Grito.png);
     background-size: contain;
     background-repeat: no-repeat;
     text-indent: -9999px;

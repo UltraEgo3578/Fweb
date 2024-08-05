@@ -1,8 +1,17 @@
+body{
+    background-image: url(../img/vegeta.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .menu-opçoes ul{
     font-size: 20px;
 }
 .menu-opçoes a{
     color: #003366;
+}
+.busca{
+    float: left;
+    left: 2px;
 }
 .container{
     width: 90%;
@@ -14,6 +23,8 @@
     position: absolute;
     top: 0px;
     right: 0px;
+    background-color: lightgray;
+    border-radius: 10px;
 }
 .menu-opçoes ul li{
     display: inline;
@@ -46,11 +57,9 @@
     text-transform: uppercase; /*maiusculo*/
     width: 600px;
     margin-right: 10px;
-    float: left;
 }
 .busca h2, .busca form, .menu-conteudo h2{
     margin: 10px;
-
 }
 .menu-conteudo li{
     background-color: antiquewhite;
