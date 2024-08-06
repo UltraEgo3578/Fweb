@@ -1,20 +1,41 @@
+body{
+    width: 100%;
+    background-color: black;
+}
 main{
-    width: 55%;
+    width: 50%;
     margin-right:auto;
     margin-left:auto;
-    border-radius: 1%;
-    height: 450px;
-    background-color: cadetblue;
+    height: 750px;
+    background-image: url(../../img/gojo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
 }
 .container{
-    width: 30%;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    width: 40%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 .botao{
+    position: relative;
     background-color: turquoise;
+    padding: 1px;
     margin: 1px;
     margin-bottom: 3px;
     height: 40px;
-    width: 75px;
+    width: 65px;
+    top: 400px;
+    right: 300px;
+}
+#display{
+    position: relative;
+    float: left;
+    width: 30%;
+    height:50px;
+    top: 60px;
+    left: 20px;
 }
