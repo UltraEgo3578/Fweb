@@ -1,4 +1,4 @@
-var banners = ["../img/destaquehome.png","../img/destaquehome2.png"]
+var banners = ["./img/destaquehome.png","./img/destaquehome2.png"]
 var bannerAtual = 0;
 function trocaBanner(){
     bannerAtual = (bannerAtual + 1) % 2;
