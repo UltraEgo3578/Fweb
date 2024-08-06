@@ -12,6 +12,9 @@ html, body{
     position: relative;
     left: 360px;
 }
+#takaIcon{
+    border-radius: 50%;
+}
 .destaque{
     float: right;
 }
